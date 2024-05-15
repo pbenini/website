@@ -132,6 +132,13 @@ These issues require OS fixes.
 Please follow https://github.com/microsoft/Windows-Containers/issues/204 for updates.
 {{< /warning >}}
 
+{{< warning >}}
+On Windows Server 2022, the KB5005619 introduced an issue on hns l2bridge connectivity.
+To workaround the issue and restore connectivity you can remove KB5005619.
+
+Please follow https://github.com/microsoft/Windows-Containers/issues/439 for updates.
+{{< /warning >}}
+
 ## Limitations
 
 The following networking functionality is _not_ supported on Windows nodes:
